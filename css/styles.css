@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,200;1,400;1,600&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+.header-1{
+ background: #eee;  
+ display: flex; 
+ align-items: center;
+ justify-content: space-between;
+ padding: 2rem 9%;
+ 
+}
+
+.header-1 a{
+    text-decoration: none;
+
+}
+
+.logo{
+    color:rgb(87, 79, 79);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.logo:hover{
+    color:blue;
+}
+
+
+.logo i{
+    padding-right: .5rem;
+    color: red;
+}
+
+.logo i:hover{
+
+    color: blue;
+}
+
+.header-1 .search-box-container{
+    display: flex;
+    height: 5rem;
+
+}
+
+
+.header-1 .search-box-container #search-box{
+height: 100%;
+width: 100%;
+padding: 1rem;
+font-size: 2rem;
+color: #333;
+border: .1rem solod rgba(0,0,0,.3);
+text-transform: none;
+}
+
+.header-1 .search-box-container label{
+height: 100%;
+width: 8rem;
+font-size: 2.5rem;
+line-height: 5rem;
+background: red;
+text-align: center;
+cursor: pointer;
+}
+
+.header-1 .search-box-container label:hover{
+    background:blue;
+}
+
+.header-2{
+    background: #fff;  
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   
+   }
+
+
+
+   
+.header-2 .navbar a{
+padding: .5rem 1.5rem;
+font-size: 2rem;
+border-radius: .5rem;
+color: rgb(87, 79, 79);
+text-decoration: none;
+}
+
+.header-2 .navbar a:hover{
+    background: red;
+    color:#fff;
+}
+
+.header-2 .icons a {
+    font-size: 2.5rem ;
+    color:red;
+    padding-left: 1rem;
+  
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-2 .icons a:hover{
+color:blue;
+
+}
+
+#home{
+    margin: 10px 30px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+
+
+.country-health {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4% 10%;
+    justify-content: space-between;
+   
+  }
+
+
+  
+  .country-health div {
+    margin-bottom: 2%;
+    border-radius: 8px;
+    overflow: hidden;
+    
+  }
+  .cities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+  }
+  .country-health button {
+    border: none;
+    background-color: blue;
+    width: 130px;
+    height: 30px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+  }
+  .country-health button:hover {
+    background-color: #dd2476;
+}
+  .country-health div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .cities .fa-heart{
+    font-size: 2.5rem ;
+    
+    padding-left: 25rem; 
+    
+  }
+
+  .cities input{
+      font-size:1.5rem ;
+      margin-bottom: 1.5rem;
+      
+  }
+
+
+
+  .cities .cart{
+      width: 700px;
+      border: none;
+  }
+
+  .tit{
+     
+      font-size: xx-large;
+      text-align: center;
+      border-radius: 4px;
+      cursor: pointer;
+      
+  }
+  .tit:hover{
+      background-color: red;
+      color: white;
+  }
+
+
+  .active{
+    color:red
+}
+.total-price-container{
+    font-size: 100px;
+}
+
+.card-body{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+    
+}
